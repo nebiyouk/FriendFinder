@@ -1,17 +1,11 @@
-FriendFinder
+<h1>FriendFinder</h1>
 
-A compatibility-based "FriendFinder" application. This full-stack site will
+<p>A compatibility-based "FriendFinder" application. This full-stack site will
 take in results your users' surveys, then compare their answers with those from other users. The app 
-will then display the name and picture of the user with the best overall match.
+will then display the name and picture of the user with the best overall match.</p>
 
-Built With
-* Node.JS
-* Express
-* JavaScript
-* JQuery
-* Bootstrap
-* HTML
-* CSS
+<h4><strong>For Demo Video Click The Link Below</strong></h4>
+https://drive.google.com/file/d/1iWTnZC7aurWc5t63qNfQF2tFUSA9LQQh/view
 
 
 Getting Started
@@ -40,8 +34,16 @@ change, nodemon will automatically restart your node application.
 > nodemon server.js
 The above command will start the server for you
 
+If you see "App listening on PORT 8080" in your CLI, then you're good to go :thumbsup:!
 
 ###### Step 5
 > Open your browser to http://localhost:8080/
 
-If you see "App listening on PORT 8080" in your CLI, then you're good to go :thumbsup:!
+<h3>Built With</h3>
+* Node.JS
+* Express
+* JavaScript
+* JQuery
+* Bootstrap
+* HTML
+* CSS
