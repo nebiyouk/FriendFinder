@@ -24,3 +24,29 @@
     font-style: italic;
     font-variant: small-caps;
   }
+
+  .bilu {
+    font-family: "Arvo", serif;
+    font-size  : 4em;
+    font-weight: normal;
+    text-align : center;
+
+    margin : 1% 0;
+    padding: 0;
+
+    -webkit-animation-name    : rainbow; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 6s;
+    animation-name            : rainbow;
+    animation-duration        : 6s;
+    animation-iteration-count : infinite;
+}
+
+@keyframes rainbow {
+    0%   { color: #97E649; }
+    16%  { color: #35fec8; }
+    33%  { color: #35a9fe; }
+    49%  { color: #e135fe; }
+    66%  { color: #FE6C52; }
+    82%  { color: #F4EE44; }
+    100% { color: #97E649; }
+} 
